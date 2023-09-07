@@ -77,6 +77,7 @@ with open("governates.csv", "w", encoding="utf-8", newline="") as csvFile:
 
                 csvWriter.writerow(
                     [
+                        atm['id'],
                         name,
                         areaName,
                         atmName,
